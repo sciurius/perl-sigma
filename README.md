@@ -13,7 +13,7 @@ The following transformations are implemented:
     sub foo :method {
         my ($self, $x, $y) = @_;
 
-    method ($x, $y) {
+    method foo ($x, $y) {
     sub foo :method {
         my ($self, $x, $y) = @_;
 
