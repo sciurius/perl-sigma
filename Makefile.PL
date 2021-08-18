@@ -12,10 +12,10 @@ use ExtUtils::MakeMaker 6.5503;
 my @bins; # = qw( prog );
 
 WriteMakefile(
-    NAME                => 'signatures',
+    NAME                => 'sigma',
     AUTHOR              => 'Johan Vromans <jv@cpan.org>',
-    VERSION_FROM        => 'lib/signatures.pm',
-    ABSTRACT_FROM       => 'lib/signatures.pm',
+    VERSION_FROM        => 'lib/sigma.pm',
+    ABSTRACT_FROM       => 'lib/sigma.pm',
     LICENSE             => 'perl_5',
     PL_FILES            => {},
     MIN_PERL_VERSION    => '5.010001',
@@ -34,8 +34,8 @@ WriteMakefile(
 
     META_MERGE => {
       resources    => {
-        repository => 'https://github.com/sciurius/perl-signatures',
-        bugtracker => "https://github.com/sciurius/perl-signatures/issues",
+        repository => 'https://github.com/sciurius/perl-sigma',
+        bugtracker => "https://github.com/sciurius/perl-sigma/issues",
         license    => "https://dev.perl.org/licenses/",
       },
       'meta-spec' => {

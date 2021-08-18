@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-	use_ok( 'signatures' );
+	use_ok( 'sigma' );
 }
 
-diag( "Testing signatures $signatures::VERSION, Perl $], $^X" );
+diag( "Testing sigma $sigma::VERSION, Perl $], $^X" );

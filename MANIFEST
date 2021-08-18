@@ -1,6 +1,15 @@
 Changes
 MANIFEST
 Makefile.PL
-README
-lib/signatures.pm
+README.md
+lib/sigma.pm
 t/00-load.t
+t/01-sigma.t
+t/10-basic.t
+t/11-sub.t
+t/12-method.t
+t/20-oo.t
+t/21-oo.t
+t/22-oo.t
+t/23-oo.t
+t/24-oo.t
