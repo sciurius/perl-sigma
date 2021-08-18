@@ -1,9 +1,11 @@
+#! perl
+
 package sigma;
 
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -84,11 +86,11 @@ Johan Vromans, C<< <JV at cpan.org> >>
 =head1 SUPPORT AND DOCUMENTATION
 
 Development of this module takes place on GitHub:
-https://github.com/sciurius/perl-signatures.
+https://github.com/sciurius/perl-sigma
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc signatures
+    perldoc sigma
 
 Please report any bugs or feature requests using the issue tracker on
 GitHub.

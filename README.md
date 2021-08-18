@@ -13,7 +13,7 @@ The following transformations are implemented:
     sub foo :method {
         my ($self, $x, $y) = @_;
 
-    sub method ($x, $y) {
+    method ($x, $y) {
     sub foo :method {
         my ($self, $x, $y) = @_;
 
@@ -35,7 +35,7 @@ To install this module, run the following commands:
 	make test
 	make install
 
-SUPPORT AND DOCUMENTATION
+## SUPPORT AND DOCUMENTATION
 
 Development of this module takes place on GitHub:
 https://github.com/sciurius/perl-sigma.
